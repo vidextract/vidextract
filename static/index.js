@@ -13,7 +13,7 @@ import {
 let processing = false;
 let socketConnection = false;
 
-const ws = new WebSocket('wss://vidextract-2879c7efc3c6.herokuapp.com');
+const ws = new WebSocket('wss://vidextract-27917b425e03.herokuapp.com');
 
 let downloadObject = {
     url:'',
