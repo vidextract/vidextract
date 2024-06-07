@@ -126,7 +126,11 @@ const checkUrlType = (data,ws) =>{
     switch(type)
     {
         case 'youtube':
-            processYoutubeInfo(data,ws)
+            try{
+                processYoutubeInfo(data,ws)
+            }catch(err){
+                 console.log('an error occured to youtube')   
+            }
         break;
         case 'snapchat':
             processSnapChatInfo(data,ws)
