@@ -108,6 +108,10 @@ app.get('/downloadData',(req,res) =>{
     streamData(reqData.url,reqData.format,res)
 })
 
+app.get('/ads.txt',(req,res) =>{
+    res.sendFile(path.join(__dirname,'./static/ads.txt'))
+})
+
 server.listen(process.env.PORT,() =>{
     console.log(`port is listening at ${process.env.PORT}`)
 })
