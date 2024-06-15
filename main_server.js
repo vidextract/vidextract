@@ -112,6 +112,10 @@ app.get('/ads.txt',(req,res) =>{
     res.sendFile(path.join(__dirname,'./static/ads.txt'))
 })
 
+app.get('/sitemap',(req,res) =>{
+    res.sendFile(path.join(__dirname,'./static/sitemap.xml'))
+})
+
 server.listen(process.env.PORT,() =>{
     console.log(`port is listening at ${process.env.PORT}`)
 })
