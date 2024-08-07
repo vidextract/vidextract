@@ -257,7 +257,9 @@ sydDOM.container = () =>{
                         },
                         [
                             sydDOM.bold('Contact Us'),
-                            sydDOM.normal('If you have questions or comments about this Privacy Policy, please contact us at:')
+                            sydDOM.normal('If you have questions or comments about this Privacy Policy, please contact us at:'),
+                            createElement('a',{href:'tel:08102945561'},['+2348102945561']),
+                            createElement('a',{href:'tel:09078762938'},['+2349078762938']),
                         ]
                     ),
                 ]
