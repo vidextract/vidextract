@@ -58,6 +58,9 @@ app.get('/privacy-policy', (req,res) =>{
     res.sendFile(path.join(__dirname,'./static/privacy.html'));
 })
 
+app.get('/sitemap.xml', (req,res) =>{
+    res.sendFile(__dirname, '/sitemap.xml')
+})
 
 app.get('/downloadVideo',urlencoded,(req,res) =>{
     let dataStream;
