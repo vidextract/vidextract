@@ -10,7 +10,7 @@ import {
     virtualDom
 } from '../sydneyDom.js'
 
-const url = 'http://localhost:8080'
+const url = 'wss://www.vidextract.com'
 
 setStyle([
     {
