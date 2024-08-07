@@ -14,7 +14,7 @@ import "./navbar.js"
 let processing = false;
 let socketConnection = false;
 
-const ws = new WebSocket('http://localhost:8080/');
+const ws = new WebSocket('wss://www.vidextract.com/');
 
 let downloadObject = {
     url:'',
