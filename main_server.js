@@ -424,6 +424,7 @@ async function processInstagram(data,ws)
     })
     .catch(err =>{
         console.log('an error occured');
+        console.log(err)
         ws.send(JSON.stringify({
             post:'validate',
             status:false,
