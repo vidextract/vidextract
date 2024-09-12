@@ -10,7 +10,7 @@ import {
     virtualDom
 } from '../sydneyDom.js'
 
-const url = 'https://vidextract-8p20.onrender.com/'
+const url = 'https://vidextract-8p20.onrender.com'
 
 setStyle([
     {
