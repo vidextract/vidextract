@@ -132,7 +132,7 @@ setStyle([
             minHeight:'100vh',
             // width:'100vw',
             color:'#fff',
-            fontFamily:'ubuntu',
+            fontFamily:'"SUSE", sans-serif',
             backgroundColor:'rgba(0,0,0,.2)',
             display:'flex',
             flexDirection:'column',
